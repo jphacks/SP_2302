@@ -1,5 +1,6 @@
 from flask import Flask, request, abort, send_from_directory
 import csv
+from collections import Counter
 from linebot import (
     LineBotApi, WebhookHandler
 )
@@ -39,7 +40,7 @@ def callback():
         abort(400)
 
     return 'OK'
-def ann():
+def ann(): #from collections import Counterも入れました
     count = 0  # count変数をここで初期化する
     s=[]
     i = []
@@ -55,13 +56,11 @@ def ann():
                 x=x.strip('[\']')
             count += 1
         l = x.split()
-        for i in l:
-            n+=i
+        element_counts = Counter(l)
         s.append("れいぞうこの中身\n")
         s.append("--------------\n")
-        for i in l:
-            s.append(i)
-            s.append("\n")
+        for element,counts in element_counts.items():
+            s.append(f"{element}: {counts}個\n")
         for i in s:
             m+=i
     return m
