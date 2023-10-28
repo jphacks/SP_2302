@@ -68,7 +68,7 @@ def ann():
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
-    if event.message.text=="@start":
+    if event.message.text=="写真":
         google_drive_url="https://drive.google.com/uc?id=16MMdtGnrgwlXq6OYjBVqMogcGNwcFagr"
         url = google_drive_url.replace("https://drive.google.com/file/d/", "https://drive.google.com/uc?id=").replace("/view?usp=sharing", "")
         line_bot_api.reply_message(
