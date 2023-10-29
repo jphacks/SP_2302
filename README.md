@@ -1,4 +1,4 @@
-# サンプル（プロダクト名）
+# 冷蔵庫の中身をスキャンして今夜の献立を考えてくれるAIを搭載したLINEbot『今夜の献立AI』
 
 [![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2023/07/JPHACKS2023_ogp.png)](https://www.youtube.com/watch?v=yYRQEdfGjEg)
 
