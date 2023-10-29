@@ -126,8 +126,8 @@ def handle_message(event):
                 original_content_url=google_drive_url,
                 preview_image_url=google_drive_url))
     elif event.message.text=="スキャン":
-        #import cliant
-        #time.sleep(10)
+        import cliant
+        time.sleep(10)
         import test
         time.sleep(20)
         line_bot_api.reply_message(
