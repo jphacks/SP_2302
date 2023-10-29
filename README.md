@@ -1,12 +1,14 @@
 # 冷蔵庫の中身をスキャンして今夜の献立を考えてくれるAIを搭載したLINEbot『今夜の献立AI』
 
-[![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2023/07/JPHACKS2023_ogp.png)](https://www.youtube.com/watch?v=yYRQEdfGjEg)
+![IMAGE ALT TEXT HERE](https://drive.google.com/uc?id=1Raqu05Tu8uy7-4OmhOU8KfaD07uNzjQx)
 
 ## 製品概要
 ### 背景(製品開発のきっかけ、課題等）
 ### 製品説明（具体的な製品の説明）
+### 
 ### 特長
-#### 1. 特長1
+#### 1. 特長1 いつでも冷蔵庫の中を確認できる
+あああああ
 #### 2. 特長2
 #### 3. 特長3
 
