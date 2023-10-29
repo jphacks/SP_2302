@@ -1,3 +1,5 @@
+#raspberryPiのコード
+
 import socketserver
 import cv2
 import sys
