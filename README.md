@@ -1,6 +1,7 @@
 # 冷蔵庫の中身をスキャンして今夜の献立を考えてくれる『今夜の献立AI』
 
-![IMAGE ALT TEXT HERE](https://drive.google.com/uc?id=1Raqu05Tu8uy7-4OmhOU8KfaD07uNzjQx)
+![IMAGE ALT TEXT HERE](https://drive.google.com/uc?id=1Raqu05Tu8uy7-4OmhOU8KfaD07uNzjQx)![IMG_4643](https://github.com/jphacks/SP_2302/assets/116143444/022f3f6f-a638-46d0-b42e-2ade041d2dba)
+
 
 ## 製品概要
 冷蔵庫の中を撮影し物体検知で在庫をリストアップ、在庫から今夜の料理を考えてくれます。
