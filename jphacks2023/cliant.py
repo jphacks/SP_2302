@@ -30,9 +30,7 @@ def getimage():
 #while True:
 for i in range(10):
     img = getimage()
-    cv2.waitKey(5)  # 少し待ってやらないと映像が生成される前に次の処理が来て映像が映りませんでした。
-    # img_90deg = cv2.rotate(img, cv2.ROTATE_90_CLOCKWISE) # 映像が時計方向90度に曲がっていた場合
-    #result = model(img,show=True)
-    #cv2.imshow('Capture', img)
+    cv2.waitKey(5)  
+    #result = model(img,show=True)#テスト用
 
 result = model(img,exist_ok=True,save=True,save_txt=True)
